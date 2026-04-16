@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PharmaERP Downloads</title>
+    <meta
+      name="description"
+      content="Download PharmaERP for Windows. Offline-friendly installers for both 64-bit and 32-bit systems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">Windows Download Portal</div>
+          <h1>PharmaERP for stores that need a simple install and a clean workflow.</h1>
+          <p class="hero-text">
+            Download the current Windows installer, choose the correct version for the PC,
+            and get running without an online setup dependency.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" id="hero-x64-link" href="#">Download 64-bit</a>
+            <a class="button button-secondary" id="hero-x86-link" href="#">Download 32-bit</a>
+          </div>
+          <div class="hero-meta">
+            <span>Current release: <strong id="release-version">v0.1.1</strong></span>
+            <span>Platform: Windows 7 or higher</span>
+            <span>Installer type: NSIS + bundled WebView2</span>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-panel-card">
+            <div class="mini-label">Best for most PCs</div>
+            <div class="hero-arch">64-bit</div>
+            <p class="mini-copy">
+              Recommended for almost all Windows 10 and Windows 11 systems.
+            </p>
+            <div class="mini-stat">
+              <span>Installer size</span>
+              <strong id="hero-x64-size">216 MB</strong>
+            </div>
+          </div>
+          <div class="hero-panel-card muted">
+            <div class="mini-label">For older systems</div>
+            <div class="hero-arch">32-bit</div>
+            <p class="mini-copy">
+              Use only if the PC is running a 32-bit edition of Windows.
+            </p>
+            <div class="mini-stat">
+              <span>Installer size</span>
+              <strong id="hero-x86-size">188 MB</strong>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="download-grid">
+          <article class="download-card featured">
+            <div class="card-topline">Recommended</div>
+            <h2>PharmaERP 64-bit</h2>
+            <p>
+              Use this on most modern Windows PCs. If the machine says 64-bit operating
+              system, this is the installer you want.
+            </p>
+            <ul class="details-list">
+              <li>Version: <span id="x64-version">v0.1.1</span></li>
+              <li>Architecture: x64</li>
+              <li>Installer size: <span id="x64-size">216 MB</span></li>
+              <li>Filename: <code id="x64-file">PharmaERP_0.1.1_x64-setup.exe</code></li>
+            </ul>
+            <a class="button button-primary wide" id="x64-link" href="#">Download 64-bit Installer</a>
+          </article>
+
+          <article class="download-card">
+            <div class="card-topline subtle">Compatibility</div>
+            <h2>PharmaERP 32-bit</h2>
+            <p>
+              Use this only for older 32-bit Windows systems. If you are unsure, try the
+              64-bit installer first on a 64-bit PC.
+            </p>
+            <ul class="details-list">
+              <li>Version: <span id="x86-version">v0.1.1</span></li>
+              <li>Architecture: x86</li>
+              <li>Installer size: <span id="x86-size">188 MB</span></li>
+              <li>Filename: <code id="x86-file">PharmaERP_0.1.1_x86-setup.exe</code></li>
+            </ul>
+            <a class="button button-secondary wide" id="x86-link" href="#">Download 32-bit Installer</a>
+          </article>
+        </section>
+
+        <section class="info-grid">
+          <article class="info-card">
+            <h3>How to choose the right installer</h3>
+            <p>
+              Open <strong>Settings</strong>, then <strong>System</strong>, then
+              <strong>About</strong>. Look for <strong>System type</strong>.
+            </p>
+            <ul class="steps-list">
+              <li>If it says 64-bit operating system, download the 64-bit installer.</li>
+              <li>If it says 32-bit operating system, download the 32-bit installer.</li>
+              <li>If a machine is very old or low-spec, the 32-bit installer may be the safer choice.</li>
+            </ul>
+          </article>
+
+          <article class="info-card">
+            <h3>Before you install</h3>
+            <ul class="steps-list">
+              <li>Close any running copy of PharmaERP before installing an update.</li>
+              <li>Your data is stored separately from the install folder, so updates keep your records.</li>
+              <li>If Windows shows a publisher warning, confirm the download source before continuing.</li>
+            </ul>
+          </article>
+
+          <article class="info-card">
+            <h3>Quick install steps</h3>
+            <ol class="steps-list ordered">
+              <li>Download the correct setup file.</li>
+              <li>Run the installer and complete the setup.</li>
+              <li>Open PharmaERP from the desktop shortcut or Start Menu.</li>
+            </ol>
+          </article>
+        </section>
+
+        <section class="release-strip">
+          <div>
+            <div class="release-label">Release note</div>
+            <div class="release-copy">
+              These installers bundle the required WebView2 runtime for more reliable offline installs.
+            </div>
+          </div>
+          <a class="text-link" id="release-notes-link" href="#" target="_blank" rel="noreferrer">
+            View release notes
+          </a>
+        </section>
+
+        <section class="faq">
+          <h2>Common questions</h2>
+          <div class="faq-grid">
+            <article class="faq-item">
+              <h3>Where is my data stored?</h3>
+              <p>PharmaERP stores its database in your Windows AppData folder, separate from the installed app files.</p>
+            </article>
+            <article class="faq-item">
+              <h3>Can I reinstall without losing invoices?</h3>
+              <p>Yes. Reinstalling the app normally does not remove your existing database unless you delete it manually.</p>
+            </article>
+            <article class="faq-item">
+              <h3>Can I share this page for free?</h3>
+              <p>Yes. You can host this site on GitHub Pages, Netlify, or Cloudflare Pages and store the installers on GitHub Releases.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./config.js"></script>
+    <script>
+      const defaults = {
+        version: "0.1.1",
+        x64: {
+          url: "#",
+          size: "216 MB",
+          file: "PharmaERP_0.1.1_x64-setup.exe",
+        },
+        x86: {
+          url: "#",
+          size: "188 MB",
+          file: "PharmaERP_0.1.1_x86-setup.exe",
+        },
+        releaseNotesUrl: "#",
+      };
+
+      const config = window.PHARMA_ERP_DOWNLOADS || defaults;
+
+      const setText = (id, value) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = value;
+      };
+
+      const setHref = (id, value) => {
+        const el = document.getElementById(id);
+        if (el) el.href = value;
+      };
+
+      setText("release-version", `v${config.version}`);
+
+      ["x64", "x86"].forEach((arch) => {
+        setText(`${arch}-version`, `v${config.version}`);
+        setText(`${arch}-size`, config[arch].size);
+        setText(`${arch}-file`, config[arch].file);
+      });
+
+      setText("hero-x64-size", config.x64.size);
+      setText("hero-x86-size", config.x86.size);
+
+      setHref("hero-x64-link", config.x64.url);
+      setHref("hero-x86-link", config.x86.url);
+      setHref("x64-link", config.x64.url);
+      setHref("x86-link", config.x86.url);
+      setHref("release-notes-link", config.releaseNotesUrl);
+    </script>
+  </body>
+</html>
