@@ -12,3 +12,5 @@ window.PHARMA_ERP_DOWNLOADS = {
   },
   releaseNotesUrl: "https://github.com/varunreddy0707-stack/PharmaERP-WEB-DOWN/releases/tag/v0.0.1",
 };
+
+// deploy-refresh-2026-05-03
