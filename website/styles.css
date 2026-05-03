@@ -273,6 +273,56 @@ a {
   animation: fadeLift 760ms ease both;
 }
 
+.preview-card {
+  border-radius: 24px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: var(--shadow-soft);
+  padding: 22px;
+}
+
+.preview-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.preview-head h2 {
+  margin: 10px 0 0;
+  font-size: clamp(1.35rem, 2.6vw, 1.9rem);
+}
+
+.preview-note {
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: rgba(18, 54, 41, 0.09);
+  color: var(--forest-soft);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.preview-frame {
+  margin-top: 16px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(18, 54, 41, 0.12);
+  background: #e5edf3;
+}
+
+.preview-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.preview-fallback {
+  display: none;
+  margin: 0;
+  padding: 18px;
+  color: rgba(14, 23, 20, 0.8);
+}
+
 .download-grid,
 .info-grid,
 .faq-grid {
@@ -471,7 +521,8 @@ code {
 
   .hero-actions,
   .hero-meta,
-  .release-strip {
+  .release-strip,
+  .preview-head {
     flex-direction: column;
     align-items: stretch;
   }
