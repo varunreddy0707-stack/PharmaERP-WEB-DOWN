@@ -1,14 +1,14 @@
 window.PHARMA_ERP_DOWNLOADS = {
-  version: "0.1.6",
+  version: "1.1.0",
   win1011: {
     x64: {
-      version: "0.1.6",
-      url: "https://github.com/varunreddy0707-stack/PharmaERP-WEB-DOWN/releases/download/v0.1.6/A2Z.Accounting.Solutions_0.1.6_x64-setup.exe",
+      version: "1.1.0",
+      url: "https://github.com/varunreddy0707-stack/PharmaERP-WEB-DOWN/releases/download/v1.1.0/A2Z.Accounting.Solutions_1.1.0_x64-setup.exe",
       size: "213 MB",
     },
     x86: {
-      version: "0.1.6",
-      url: "https://github.com/varunreddy0707-stack/PharmaERP-WEB-DOWN/releases/download/v0.1.6/A2Z.Accounting.Solutions_0.1.6_x86-setup.exe",
+      version: "1.1.0",
+      url: "https://github.com/varunreddy0707-stack/PharmaERP-WEB-DOWN/releases/download/v1.1.0/A2Z.Accounting.Solutions_1.1.0_x86-setup.exe",
       size: "181 MB",
     },
   },
@@ -24,5 +24,5 @@ window.PHARMA_ERP_DOWNLOADS = {
       size: "139 MB",
     },
   },
-  releaseNotesUrl: "https://github.com/varunreddy0707-stack/PharmaERP-WEB-DOWN/releases/tag/v0.1.6",
+  releaseNotesUrl: "https://github.com/varunreddy0707-stack/PharmaERP-WEB-DOWN/releases/tag/v1.1.0",
 };
