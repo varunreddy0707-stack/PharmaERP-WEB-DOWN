@@ -14,13 +14,13 @@ window.PHARMA_ERP_DOWNLOADS = {
   },
   win7: {
     x64: {
-      version: "0.1.6",
-      url: "https://github.com/varunreddy0707-stack/PharmaERP-WEB-DOWN/releases/download/v0.1.6/A2Z-Win7-x64-Setup-v0.1.6.exe",
+      version: "1.1.0",
+      url: "https://github.com/varunreddy0707-stack/PharmaERP-WEB-DOWN/releases/download/v1.1.0/A2Z-Win7-x64-Setup-v1.1.0.exe",
       size: "153 MB",
     },
     x86: {
-      version: "0.1.6",
-      url: "https://github.com/varunreddy0707-stack/PharmaERP-WEB-DOWN/releases/download/v0.1.6/A2Z-Win7-x86-Setup-v0.1.6.exe",
+      version: "1.1.0",
+      url: "https://github.com/varunreddy0707-stack/PharmaERP-WEB-DOWN/releases/download/v1.1.0/A2Z-Win7-x86-Setup-v1.1.0.exe",
       size: "139 MB",
     },
   },
